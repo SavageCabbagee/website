@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <nav className='flex flex-wrap items-center bg-black p-3 '>
+            <nav className='flex flex-wrap items-center bg-black p-3'>
                 <Link href = '/'>
                     <a className='inline-flex'> 
                         <Image 
