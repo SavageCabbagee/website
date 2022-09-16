@@ -9,7 +9,7 @@ const siteTitle = "Cabbage's blog"
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className='flex flex-col h-screen'>
       <Head>
         <link rel="icon" href="/pfp.jpg" />
         <meta
@@ -19,6 +19,7 @@ export default function Layout({ children }) {
         <title>Cabbage</title>
       </Head>
       <Navbar/>
+      <main className='grow'>{children}</main>
       <Footer/>
     </div>
   )
