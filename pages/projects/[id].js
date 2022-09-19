@@ -32,7 +32,8 @@ export default function ProjectPost({postData}) {
         <div>
           <Date className='text-xs' dateString={postData.date} />
         </div>
-        <div className='p-2 justify-self-center' dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className='flex flex-col p-2 mx-auto' dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+
         <Link href = '/projects'>
           <a className='w-fit'>
             <p className='m-2 underline underline-offset-1 hover:underline-offset-2'>&larr;Back to Projects</p>
