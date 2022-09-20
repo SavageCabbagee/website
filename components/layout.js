@@ -19,7 +19,7 @@ export default function Layout({ children }) {
         <title>Cabbage</title>
       </Head>
       <Navbar/>
-      <main className='grow'>{children}</main>
+      <main className='grow overflow-auto'>{children}</main>
       <Footer/>
     </div>
   )

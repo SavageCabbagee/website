@@ -44,7 +44,7 @@ export default function Navbar() {
                 <Link href = '/'>
                     <a className='text-white text-m font-bold mx-2 my-1 p-1 hover:bg-neutral-700 rounded'>Home</a>
                 </Link>
-                <Link href = '/'>
+                <Link href = '/blog'>
                     <a className='text-white text-m font-bold mx-2 my-1 p-1 hover:bg-neutral-700 rounded'>Blog</a>
                 </Link>
                 <Link href = '/projects'>
