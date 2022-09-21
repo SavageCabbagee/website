@@ -63,7 +63,7 @@ export default function Projects({allBlogData}) {
           <h1 className='pl-3 text-s lg:text-xl font-bold'>Blog</h1>
           <p className='pl-3 text-xs lg:text-l'>My ramblings/blogposts</p>
         </div>
-        <div className='flex flex-col overflow-auto pb-4 px-9 max-h-full'>
+        <div className='flex flex-col overflow-auto pb-4 px-9'>
           {blog_list}
         </div>
       </div>
